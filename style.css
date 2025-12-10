@@ -1,0 +1,139 @@
+header{ margin-bottom: 10px;
+  width: 100%;
+  background-color: rgb(8, 8, 8);
+  color: #000;
+}
+.navber{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navber ul{
+  list-style: none;
+}
+.navber ul li {
+  background-color: rgb(114, 101, 85);
+  width: 170px;
+  height: 50px; 
+  line-height: 50px;
+  border: 1px solid rgba(255, 248, 248, 0.651);
+  text-align: center;
+  float: left;
+  font-size: 15px;
+  font-weight: bold;
+}
+.navber ul li a{
+  text-decoration: none;
+  color: #ffffffd7;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+ }
+.navber ul  li:hover{
+  background-color: rgb(0, 204, 255);
+ transition: all ease-in 0.5s ;
+}
+.navber ul ul {
+  display: none;
+}
+.navber ul li:hover>ul{
+  display: block;
+}
+h1{margin-top: 10px;
+margin-bottom: 10px;}
+body{
+    margin: 25px;
+    background-image:url(plufow-le-studio-VXXvmc7wQjY-unsplash.jpg); background-repeat:repeat;
+    border: 5px dotted rgba(69, 77, 47, 0.61);
+    border-radius: 10px;
+    outline: 5px solid rgb(74, 84, 226);
+    outline-offset: 9px;
+}
+h1{
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 50px;
+  font-style: oblique;
+  font-weight: 800px;}
+.fa-youtube{
+  color: rgba(255, 255, 255, 0.733);
+}
+.fa-facebook{
+  color: rgba(248, 248, 252, 0.767);
+}
+.fa-instagram{
+ color: rgba(255, 251, 253, 0.767);
+}
+.a1{
+  border: 2px solid black;
+}
+.Contact{
+  border: 1px solid;
+  border-collapse: collapse;
+}
+.img1{
+  width: 300px;
+  height: 400px;
+  float: right;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border: 1px solid;
+  box-shadow:
+  2px 2px 5px rgb(0,0,0,0.5),-3px -3px 3px rgb(0,0,0,0.5);
+   transition:all ease-in-out
+   0.3s 0.1s
+}
+.img1:hover{
+  opacity: 0.7;
+  width: 500px;
+  height: 600px;
+  border-radius:  50%;
+  transform:rotate(360deg)
+}
+footer{
+  text-align: center;
+  position: relative;
+  background-color: rgb(58, 53, 53);
+  color: #f7f2f2c4;
+}
+ h3{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+}
+.y{
+  width: 500px;
+  margin: 0 auto;
+  position: relative;
+  top: -50px;
+}
+.icon{
+  font-size: 40px;
+  position: relative;
+  top: -30px;
+ padding:;
+}
+.end{
+  width: 100%;
+  height: 50px;
+  background-color: #000;
+line-height: 50px;
+}
+.Login{
+  background-color: crimson;
+  color: azure;
+  text-align: center;
+  font-size: 40px;
+  margin: 0 auto;
+  width: fit-content;
+  height: fit-content;
+  padding: 20px 80px ;
+  margin-bottom: 10px;
+  border-radius: 5%;
+  box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2),0 6px 20px 0 rgba(0, 0, 0, 0.19) ;
+}
+.log{ 
+ border-color: #000;
+  border-radius: 55px;
+  }
+  
